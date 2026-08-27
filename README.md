@@ -34,7 +34,7 @@ pip install pydantic ollama
 (O mediante uv: uv pip install pydantic ollama)
 
 
-Estructura del Modelo (Ejemplo)
+## Estructura del Modelo (Ejemplo)
 
 from pydantic import BaseModel, Field
 from typing import List, Optional, Literal
