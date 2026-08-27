@@ -46,7 +46,7 @@ class RespuestaAnalisis(BaseModel):
     etiquetas: List[str] = Field(..., min_length=1)
     notas_adicionales: Optional[str] = Field(default=None, max_length=200)
     
-Uso
+## Uso
 Para ejecutar las pruebas con reintentos automáticos y validación estricta:
 
 Bash
